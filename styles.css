@@ -36,6 +36,11 @@ html {
     margin-top: 30px;
 }
 
+.header .logo img {
+    width: 152px;
+    height: 25px;
+}
+
 .header .titulo {
     text-align: center;
     font-size: 2.4rem;
@@ -111,6 +116,7 @@ main .fSection .fSection-text {
     min-width: 320px;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 main .fSection .fSection-text h2 {
@@ -129,6 +135,10 @@ main .fSection .fSection-text p {
     color: #757575;
 }
 
+.fSection-tables-container {
+    position: relative;
+}
+
 .main-currency-table {
     width: 70%;
     min-width: 235px;
@@ -139,9 +149,9 @@ main .fSection .fSection-text p {
 }
 
 .main-currency-table .currency-table--title {
-    margin-bottom: 15px;
-    margin-left: 5px;
-    margin-top: 25px;
+    position: absolute;
+    left: calc(50% - 120px);
+    top: -30px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
@@ -150,7 +160,7 @@ main .fSection .fSection-text p {
 
 .currency-table--container {
     width: 90%;
-    min-width: 230px;
+    min-width: 280px;
     max-width: 300px;
     height: 250px;
     margin: 0 auto;
@@ -371,7 +381,7 @@ main .fSection .fSection-text p {
 .main-plans-container {
     width: 100%;
     min-width: 320px;
-    max-width: 450px;
+    max-width: 700px;
     height: auto;
     margin: 0 auto;
     margin-top: 64px;
@@ -400,8 +410,9 @@ main .fSection .fSection-text p {
 
 .plans-container--slider {
     width: 100%;
-    max-width: 450px;
+    max-width: 700px;
     height: 316px;
+    margin: 0 auto;
     display: flex;
     gap: 40px;
     overflow-x: scroll;
@@ -527,4 +538,9 @@ footer .left li {
 footer .left a {
     text-decoration: none;
     color: var(--white);
+}
+
+footer .right img {
+    width: 64px;
+    height: 50px;
 }
